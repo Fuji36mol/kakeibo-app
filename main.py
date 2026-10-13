@@ -22,7 +22,7 @@ def main():
         elif choice == "3":
             records.delete_record()
         elif choice == "4":
-            summary.show_summary(records)
+            summary.show_summary(storage.load_records())
         elif choice == "5":
             print("（フェーズ4で実装）")
         elif choice == "0":
