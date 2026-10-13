@@ -2,6 +2,7 @@
 import records
 import storage
 import summary
+import report
 
 
 def main():
@@ -24,7 +25,7 @@ def main():
         elif choice == "4":
             summary.show_summary(storage.load_records())
         elif choice == "5":
-            print("（フェーズ4で実装）")
+            report.show_report()
         elif choice == "0":
             print("終了します")
             break
