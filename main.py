@@ -1,5 +1,7 @@
 """家計簿アプリのメニュー"""
 import records
+import storage
+import summary
 
 
 def main():
@@ -20,7 +22,7 @@ def main():
         elif choice == "3":
             records.delete_record()
         elif choice == "4":
-            print("（フェーズ3で実装）")
+            summary.show_summary(records)
         elif choice == "5":
             print("（フェーズ4で実装）")
         elif choice == "0":
