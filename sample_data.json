@@ -1,0 +1,6 @@
+[
+  {"date": "2026-10-01", "amount": 80000, "category": "バイト代", "memo": "9月分"},
+  {"date": "2026-10-03", "amount": -1200, "category": "食費", "memo": "昼食"},
+  {"date": "2026-10-05", "amount": -3500, "category": "交通費", "memo": ""},
+  {"date": "2026-09-28", "amount": -2000, "category": "娯楽", "memo": "映画"}
+]
