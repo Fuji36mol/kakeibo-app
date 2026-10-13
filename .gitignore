@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 実際の家計簿データ（個人情報のため共有しない）
+data.json
